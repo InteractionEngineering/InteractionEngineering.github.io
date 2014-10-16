@@ -1,0 +1,90 @@
+.logoTudor {
+    float:right; 
+    margin-left: 5%;
+	margin-right: 10px;
+    height: 40px;
+    margin-top: 5px;
+}	
+
+@media screen and (max-width: 979px) {
+.logoTudor {
+    float:left; 
+    height: 40px;
+    margin-top: 5px;
+}		
+}
+
+p {
+    text-align: justify;
+    font-size: 13px;
+}
+
+.navbar-inverse .navbar-inner {
+    background-image: none;
+    background-color: rgba(255,255,255,0.9);
+    border-color: rgb(255, 255, 255);
+    box-shadow: 0 1px 10px rgba(20, 98, 132, 0.49);
+}
+
+.navbar-inverse .nav>li>a:hover {
+    color: rgba(0,168,255,0.49);
+    box-shadow: 0 1px 10px rgba(20, 98, 132, 0.49);
+}
+
+.navbar .nav>li>a {
+    text-shadow: none;
+    font-family: "Lato","Lato Latin","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    color: #000;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+body {
+    font-family: "Lato","Lato Latin","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 1.42857;
+    color: #000;
+}
+
+.navbar-inverse .nav .active>a, .navbar-inverse .nav .active>a:hover, .navbar-inverse .nav .active>a:focus {
+    color: rgb(255,255,255);
+    background-color: rgba(0,168,255,0.49);
+}
+
+.hero-unit h1 {
+    color: rgba(0,168,255,0.49);
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 68px;
+}
+
+.hero-unit {
+    background-color: rgb(255,255,255);
+    text-align: center;
+}
+
+.hero-unit p {
+    text-align: center;
+    font-size: 18px;
+}
+
+ul li {
+	font-size: 13px;
+}
+
+h2 {
+    color: rgb(0,0,0);
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 1.1;
+}
+
+h3 {
+    color: rgb(0,0,0);
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 200;
+    ￼line-height: 1.1;
+}

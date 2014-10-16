@@ -1,7 +1,223 @@
-<html>
-<head>
-</head>
-<body>
-<h1>Interaction Engineering Group</h1>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaction Engineering / CRP Henri Tudor</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="stylesheet.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <![endif]-->
+  </head>
+  <body data-spy="scroll" data-target=".navbar">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+                <a href="http://www.tudor.lu/en"><img class="logoTudor" src="img/Tudor.jpg" alt="CRP Henri Tudor"/></a>
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#home">Home</a></li>
+              <li class="active"><a href="#objectives">Objectives</a></li>                                      
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#publications">Publications</a></li>
+              <li><a href="#members">Team Members</a></li>
+              <li><a href="#contact">Contact us</a></li>
+            </ul>
+          </div>
+          <!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id="home" class="hero-unit">
+
+        <h1>Interaction Engineering</h1>                
+        <p>
+          We are the "Interaction Engineering" Team at CRP Henri Tudor, Luxembourg.
+        </p>
+      </div>
+      <h2 id="objectives">Objectives</h2>
+      Our main research theme is the optimisation of the user interaction design process through software engineering methods. We drive our research by following two main axes: Human-Computer Interaction (HCI) design industrialization and adaptation.
+      <div class="row">
+        <div class="span12">
+          
+          <h3><abbr title="Human-Computer Interaction">HCI</abbr> design industrialization</h3>
+	  <div class="row">
+            <div class="span6">
+          <p>The design and development of  <abbr title="User Interfaces">UI</abbr> is a complex, error-prone and costly task. This complexity is mainly comes from: </p>
+	  <ul>
+		<li>the diversity of devices, user profiles and interaction contexts</li>
+		<li>the number of quality dimensions to address (user experience, usability, performance, security, privacy, emotional design, accessibility, etc.)</li>
+	</ul>
+	<p>
+	Moreover, the current UI design practices are actually not always efficient, being based on trial and error, and mainly relying on individual crafting skills. UI design teams are made of stakeholders with very specialized profiles, with different backgrounds,  skills and goals (UI, UX, interaction, graphical designers, software engineers, requirements engineers, project managers, usability experts, accessibility experts, testers, etc.). Thus, the collaboration in such a design team can be also complex. </p>
+	<p>
+	Our objective is here to be able to provide new methods and tools to support the work of UI design and development teams and to industrialize their practices. In this way, they will be able to improve their productivity, and limit development costs, risks and delays.</p>
+	<p>To reach this goal, we consider <a href="http://en.wikipedia.org/wiki/Model-driven_engineering">Model-driven engineering</a> (MDE) as our main methodology. The main artifacts manipulated by the UI design teams (requirements, blueprints, mockups, interaction flows, business processes ...) are managed as models and provide to the design stakeholders means to express and reconcile their viewpoints on the UI being created semi-automatically. We propose here to develop an efficient model management framework to support the various UI design methodologies and industrial practices. At the development level, MDE can also leverage software evolution, that is also very demanding for development teams. One of the main questions behind the industrialization of HCI design is to study how we can reduce the HCI production and evolution costs ? How to provide seamless evolution according to the different viewpoints on the system (e.g., business transformation, technical changes, etc.)? How can we improve the quality while reducing manual testing costs?</p>
+	    </div>
+            <div class="span6">
+              <img class="adaptation" src="img/industrialization.jpg" alt="HCI Industrialization"/>
+	    </div>
+	  </div>
+
+
+          <h3><abbr title="Human-Computer Interaction">HCI</abbr> Adaptation</h3>
+	  <div class="row">
+            <div class="span4">
+              <img class="adaptation" src="img/adaptation.jpg" alt="HCI Diversity"/>
+	    </div>
+            <div class="span8">
+
+              <p>Nowadays, HCI design teams are facing an important diversity of devices, user profiles and interaction contexts. All of these diversity criteria are also time-varying, but most of UIs are static and we provide one-size-fits-all solutions. One mean to deal with this problem is through the adaptation of UIs.	      
+	      Adaptation has been sought after in the HCI field since a long time trying to provide an adaptation framework to context changes whilst ensuring good quality levels. In pervasive computing, the adaptation is reflected by the triple “sense, think, act”. Technically, some basic UI adaptation mechanisms have already been realized such as responsive design which allows the adaptation of web interfaces to the displayed size, keeping the most important information and supporting a good usability level of the adapted UI.  
+		The main lines of contexts have been studied: interaction platform (web, mobile, desktop, smart TV, etc.), environment (interaction contexts) and user (disabilities, activities, etc.). However, for each specific case, the relevant information has to be designed carefully. The definition and capture of context are thus a crucial research question. How to design and capture a useful context for adaptation (based on the plenty of available sensors and information)? How to process complex context information (which could be provided by network sensors) and detect relevant patterns ? More particularly, the context should include the end-user. This leads to a question: how to design, capture and analyze user-related information in order to provide a good user experience?
+		In a second time, the “think” step should be based on artificial intelligence and reasoning techniques. How to provide the best adaptation regarding a given context pattern?  How to analyze end-user reactions to the adaptation? Moreover the adaptation should not be fixed (i.e., answering to unforeseen situations or based on end-user observation): how could we dynamically tune the adaptation ? How and what could we learn from the usage of adapted UIs?
+		Finally the adaptation mechanisms themselves have to be studied, how could we provide efficient adaptation delivering concise adaptation specifications? How could we reduce the production cost of such a system? How to plan in an optimal way the adaptation ? Why not reusing design-time concepts for the run-time adaptation ? Where are the limits of the adaptation, on which malleability points  could we rely to effectively adapt the human-computer interaction? 
+		The adaptation itself can be either not pertinent or not understood by the end user. End-users have habits with one interface in one context. If the context changes and the UI react accordingly, will he still find the UI usable and pleasant to use? How to ensure a good user acceptance of the adaptation? How could we make the user aware of changes and make him understand how the adaptation works? How this adaptation can be understood and controlled by end-users ?
+              </p>
+	    </div>
+	  </div>
+        </div>
+      </div>    
+      <hr>
+      <h2 id="projects">Projects</h2>
+      <div class="row">
+        <div class="span12">
+          <h3>Genius</h3>
+	  <p>
+	  The Genius project was a national project funded by FNR (2010-2012). In this project we worked on automatic UI generation from models. Attempts at automatic UI generation have been made since the 1980s, however generally at the expense of usability. GENIUS was created with the goal of developing a method to automatically generate usable UIs by taking into account ergonomic, usability and user experience criteria at the beginning of the generation process.</p>
+	  <p>
+	  Building on previous work on user interface design by CRP Henri Tudor's Service Science and Innovation Department, this multidisciplinary method also takes into account knowledge from the field of ergonomics to improve the interface design process. The project's approach first embeds these usability criteria into the initial automatic generation rules. Then an iterative approach relies on end-user tests to optimise the selected criteria and generation rules. After developing this methodology through collaboration with the Louvain School of Management and the University of Luxembourg, which included the participation of three PhD students, a case study prototype for mobile document management for the construction sector was created and tested in the usability lab at the University of Luxembourg. This led to the development of the GENIUS tool which is based on standard model-driven engineering tools available on the eclipse platform including EMF (a modelling framework), ATL (transformation rules) and JQuery mobile (a mobile-web framework). The GENIUS platform provides a set of transformation rules annotated with the ergonomic criteria they improve or decrease as an infrastructure to transform and execute models.
+
+	  </p>
+	  <iframe src="http://www.slideshare.net/slideshow/embed_code/40340509" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
+          <h3>MoDEL</h3>
+		  <div class ="row">
+			<div class="span6">
+              <img class="adaptation" src="img/" alt="AME"/>
+			</div>
+            <div class="span6">
+			<p> The MoDEL project is an ongoing Luxemburgish research project, fully funded by the FNR (http://www.tudor.lu/fr/projets/model).
+			It aims at bringing the concept of Software Product Line (SPL) to the design of Model-Driven HCI. SPL are a well know industrial approach used to produce serveral variant of a same products. Think for instance
+			of a car model and all its variants and options. Through SPL modelling technics (such as feature models) we will be able to describe the many variability faces of HCI (expected quality, UX, layout, widgets, interaction patterns, etc.)</p>
+				
+			<p> However, the number of variants could grow exponentially and the product familly may not be clearly identified for market purpose. Moreover, the user may be confused when choosing the right product. In the MoDEL project we 
+				also aim at rationalising this approach by reducing this number of variants (i.e., some are not efficient or even working) by using testing and clustering approaches.
+			</p>
+			
+			<p> In the MoDEL project we introduced a more pragmatic way of building Model-Driven HCI, designing a new modelling framework. Our modelling framework going beyond academic/traditional Model-Based approach focusing on the core aspect of HCI design:
+			such as the control flow, page flow, data binding, etc. 
+			The transformations, key concept of Model Engineering, are the operations of deriving a model (or code) from another model resulting in the automation of  software engineering processes -design and development- processes. 
+			In this framework, they are considered as first order citizen: they are no longer black-boxes and any designer should have a control on it.
+			This framework (models, transformations, design processes) are realized in the AME environment.				
+			</p>
+			
+			</div>
+		</div>	
+          <h3>AME</h3>
+	  <div class="row">
+            <div class="span6">
+              <img class="adaptation" src="img/AME-EICS14.png" alt="AME"/>
+	    </div>
+            <div class="span6">
+              <p>HCI addresses the study, planning and design of the interaction between people and computers through User Interfaces (UIs). The co-design and co-development of these UIs involve different stakeholders as Developers, Functional Analysts, Usability Experts and Interaction designers among others, all of them responsible for different UI elements (respectively implementation, functional requirements, usability and interaction workflow).</p>
+
+			<p>Collaboration between stakeholders has been identified as a key factor for UI development. This research investigates how concepts and methods from model-driven engineering (MDE) can contribute to UI development through a collaborative approach. We discuss how classical HCI views (extra-UI, mega-UI) can be useful for multi-stakeholder engineering, and how MDE acts as the backbone that supports them. The global approach is implemented in an Adaptive Modelling Environment (AME) illustrated in the figure.</p>
+
+			<p>Adaptive Modelling Environments aim at supporting both individual and collaborative work in order to improve model-based UI development. AME is currently under heavy development. If you want to test it, participate or collaborate, please do not hesitate and <a href="#contact">contact us</a>.
+              </p>
+	    </div>
+	  </div>
+	  <div class="row">
+            <div class="span6">
+              <h4>AME: Rapid Prototyping</h4>
+	      <iframe width="560" height="315" src="http://www.youtube.com/embed/15xBDRL13vM" frameborder="0" allowfullscreen></iframe>
+	    </div>  
+            <div class="span6">
+              <h4>AME: Software Product Lines</h4>
+	      <iframe width="560" height="315" src="http://www.youtube.com/embed/78t11o0jatU" frameborder="0" allowfullscreen></iframe>
+	    </div>  
+	  </div>  
+        </div>
+      </div>
+      <hr>
+      <h2 id="publications">Publications</h2>
+      <div class="row">
+        <div class="span12">
+	  <div id="bibliography"></div>
+        </div>
+      </div>
+      <hr>
+      <h2 id="members">Team Members</h2>
+      <div class="row">
+        <div class="span4">
+          <h3>Dr Jean-Sébastien Sottet</h3>
+          <p>
+            Jean-Sébastien Sottet obtained his PhD in Computer Science in the University of Grenoble in 2008 on Model-Driven Engineering for Human-Computer Interaction. He joined the Public Research Centre Henri Tudor in Luxembourg in 2011 on the many subjects mentionned in this page. Beforehand he was R&amp;D engineer in a Luxemburgish SME where he had the opportunity to apply MDE to real enterprise contexts and needs, right after a post-doctoral position at INRIA Rennes (AtlanMod team - team that build ATL) on Model-Driven Reverse Engineering which was fun and enriching about MDE tooling.
+          </p>
+        </div>
+        <div class="span4">
+          <h3>Dr Alfonso García Frey</h3>
+          <p>
+            Alfonso García Frey obtained his PhD in Computer Science in 2013 in Model-Driven Engineering applied to Human-Computer Interaction in the University of Grenoble, in the Engineering Human-Computer Interaction group. He was member of the UsiXML consortium and actively contributed to the UsiXML language, currently under standardistion by the W3C. He is also the main author of the quality metamodel of the language. Alfonso has been recently awarded a national AFR grant in Luxembourg to fund his research. He is a member of the Interaction Engineering group at CRP Henri Tudor since then.
+          </p>
+        </div>
+        <div class="span4">
+          <h3>Alain Vagner</h3>
+          <p>
+            Alain Vagner obtained in 2003 his Master’s degree in Computer Science from the IAEM-Lorraine Doctoral School in Nancy (France). He joined the Public Research Centre Henri Tudor in Luxembourg in 2004 as a member of the "Software Engineering" research unit, where he currently is a member of the steering committee. He mainly managed and contributed to several projects related to Software Engineering and Human-Computer Interaction. Since 2009, he is the product manager of Tudor "User-Centered Design" service line, dealing with topics such as HCI, usability and adaptation. He is also the co-founder of the Luxembourg-France chapter of the Usability Professionals' Association.                              
+          </p>
+        </div>          
+      </div>
+      <hr>
+      <h2 id="contact">Contact Us</h2>
+      <div class="row">
+        <div class="span12">
+          <p>
+            <address>
+              <strong>CRP Henri Tudor</strong><br/>
+              2b, rue Albert Borschette (K2)<br />
+              L-1246 Luxembourg-Kirchberg<br />
+              Luxembourg<br/>
+            </address>                          
+            Feel free to contact us or drop us specific questions <a id="melcontact" href="" rel="nofollow">by e-mail</a>.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <footer>
+        <p>
+          © CRP Henri Tudor 2014
+        </p>
+      </footer>
+    </div>
+    <script src="js/jquery-1.10.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script>
+      $(function(){
+        $("#bibliography").load("bibliography.html");
+      });
+    </script> 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55806149-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </body>
 </html>
