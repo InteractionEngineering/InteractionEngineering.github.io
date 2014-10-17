@@ -6,6 +6,15 @@
     margin-top: 5px;
 }	
 
+@media screen and (max-width: 555px) {
+	#home h1 {
+		font-size: 36px;
+	}
+	.hero-unit {
+		padding: 0;
+	}
+}
+
 @media screen and (max-width: 979px) {
 .logoTudor {
     float:left; 
